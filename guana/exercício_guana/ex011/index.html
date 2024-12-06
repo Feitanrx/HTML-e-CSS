@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em html</title>
+</head>
+<body>
+    <h1>Imagem Dinamica</h1>]
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="Imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Imagens/foto-m.png" type="image/png">
+        <img src="Imagens/foto-g.png" alt="imagem flexível">
+        
+    </picture>
+    <!-- picture, source midia type, source max ou min, ordem menor para maior sempre. precisa selecionar o formato da imagem-->
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a redroduzir áudios em HTML5</p>
+    <audio src="../midia/movingintheshadows.mp3" controls autoplay></audio> 
+    <!-- MP3 - WAV - OGG -->
+     <audio preload="metadata" controls>
+        <source src="../midia/supafine.mp3" type="audio/mpeg">
+        <p>infelizmente seu navegador não consegue reproduzir ádio</p>
+
+     </audio>
+     <audio controls loop>
+        <source src="../midia/winthebattle.mp3" type="audio/mpeg">
+     </audio>
+     <!-- audio, source (src), audio/mpeg(para mp3)-->
+</body>
+</html>
