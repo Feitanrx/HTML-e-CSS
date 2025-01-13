@@ -1,0 +1,25 @@
+APP e extensão
+Visual studio code
+Gimp
+Webdeveloper
+CORES:
+color.adobe.com
+https://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF
+coolors.com
+Colorzilla
+css web safe font combination
+
+font
+googlefonts
+what font is
+fontsquirrel
+eriksart (simbolos) 
+
+
+
+
+HTML 
+CLASSE      ID
+
+CSS
+.           #
